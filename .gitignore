@@ -1,0 +1,24 @@
+# Environments
+data/
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# # Project Specific
+# checkpoints/
+# results/
+# E:/New folder/Sepsis/checkpoints/
+# E:/New folder/Sepsis/results/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
