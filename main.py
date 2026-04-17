@@ -802,7 +802,6 @@ def run_sessions(train_eps, test_eps, device="cpu"):
     results_path = os.path.join(cfg.RESULTS_DIR, "session_results.csv")
     start_s = 1
     if os.path.exists(results_path):
-        import pandas as pd
         prev_results = pd.read_csv(results_path)
         if not prev_results.empty:
             start_s = prev_results["session"].max() + 1
